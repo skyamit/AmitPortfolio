@@ -18,9 +18,11 @@ function LargeHeader(){
                     <a href="#contact">04.<div className="heading">Contact</div></a>
                 </li>
                 <li className='nav-item'>
-                    <button className='button'>
-                        <a href="https://drive.google.com/file/d/11d6wnY8BIxt65Ts1BqVpp5_vaEV7oS9q/view?usp=sharing">Resume</a>
-                    </button>
+                    <a href="https://drive.google.com/file/d/11d6wnY8BIxt65Ts1BqVpp5_vaEV7oS9q/view?usp=sharing">
+                        <button className="button">
+                            Resume
+                        </button>
+                    </a>
                 </li>
             </ul>
         </div>
