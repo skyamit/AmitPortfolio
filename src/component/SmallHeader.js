@@ -21,7 +21,9 @@ function SmallHeader(){
             </div>
             <hr/>
             <div>
-                <button className="button">Resume</button>
+                <button className="button">
+                <a href="https://drive.google.com/file/d/11d6wnY8BIxt65Ts1BqVpp5_vaEV7oS9q/view?usp=sharing">Resume</a>
+                </button>
             </div>
             <hr/>
         </div>
