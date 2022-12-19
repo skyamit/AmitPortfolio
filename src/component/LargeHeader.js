@@ -19,7 +19,7 @@ function LargeHeader(){
                 </li>
                 <li className='nav-item'>
                     <button className='button'>
-                    Resume
+                        <a href="https://drive.google.com/file/d/11d6wnY8BIxt65Ts1BqVpp5_vaEV7oS9q/view?usp=sharing">Resume</a>
                     </button>
                 </li>
             </ul>
