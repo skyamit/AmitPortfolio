@@ -32,13 +32,13 @@ function App() {
                 My Coding Profiles
               </h2>
               <button className='button mt-3 inline me-2'>
-                LinkedIn
+                <a href="https://linkedin.com/in/skyamit">LinkedIn</a>
               </button>
               <button className='button mt-3 inline me-2'>
-                Github
+                <a href="https://github.com/skyamit">GitHub</a>
               </button>
               <button className='button mt-3 inline me-2'>
-                Leetcode
+                <a href="https://leetcode.com/amit-codes">LeetCode</a>
               </button>
             </div>
           </div>
