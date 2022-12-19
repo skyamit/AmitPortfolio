@@ -31,15 +31,15 @@ function App() {
               <h2 className='white mt-5'>
                 My Coding Profiles
               </h2>
-              <button className='button mt-3 inline me-2'>
-                <a href="https://linkedin.com/in/skyamit">LinkedIn</a>
-              </button>
-              <button className='button mt-3 inline me-2'>
-                <a href="https://github.com/skyamit">GitHub</a>
-              </button>
-              <button className='button mt-3 inline me-2'>
-                <a href="https://leetcode.com/amit-codes">LeetCode</a>
-              </button>
+                <a href="https://linkedin.com/in/skyamit">
+                  <button className='button mt-3 inline me-2'>LinkedIn</button>
+                </a>
+                <a href="https://github.com/skyamit">
+                  <button className='button mt-3 inline me-2'>GitHub</button>
+                </a>
+                <a href="https://leetcode.com/amit-codes">
+                  <button className='button mt-3 inline me-2'>LeetCode</button>
+                </a>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ function App() {
           </div>
 
           <div className='row justify-content-center'>
-            <div id="work" className='col-12 col-xl-6 col-lg-8 col-md-9 mt-5 mb-5 pt-5 pb-5' >
+            <div id="work" className='col-12 col-xl-8 col-lg-9 col-md-9 mt-5 mb-5 pt-5 pb-5' >
               <h1 className="text-pop">
                 03.<div className="heading">Some Things I've Built</div>
               </h1>
@@ -80,8 +80,9 @@ function App() {
                 Get In Touch
               </h2>
               <p className='grey p-2'>
-              I'm looking for new Opportunity, and my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                I'm looking for new Opportunity, and my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
               </p>
+              <p className='text-pop text'>amit7646014@gmail.com</p>
               
               <br/><br/>
 
