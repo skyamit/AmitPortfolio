@@ -16,7 +16,7 @@ function About(){
                 <h6 className="white text">
                     Here are a few technologies I’ve been working with recently:
                 </h6>
-                <div className='d-flex col-12 justify-content-between'>
+                <div className='d-flex col-12 col-xl-12 col-lg-12 col-md-8 col-sm-8 justify-content-between'>
                     <div>
                         <ul>
                             <li className='text-pop'>Java</li>
