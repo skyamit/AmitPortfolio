@@ -148,7 +148,13 @@ div{
     width: 30px;
     height:30px;
 }
-
+.icon{
+    width: 30px;
+    height:30px;
+    background-color: #64eeff;
+    border-radius: 15px;
+    padding: 4px;
+}
 .inline{
     display:inline-block;
 }
