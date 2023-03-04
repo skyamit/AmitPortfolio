@@ -11,6 +11,9 @@ function Work() {
     const cog = ()=>{
         setValue(0);
     };
+    const gyan = ()=>{
+        setValue(2);
+    };
     function SelectWork(){
         if(value === 0){
             return (
@@ -37,7 +40,23 @@ function Work() {
                         <li className='text grey monospace'>OnBoarded multiple functionalities from existing application to new Tech Stack.</li>
                         <li className='text grey monospace'>Wrote multiple API's for the team which returned the extracted data by doing some computations on the basis of business requirements. These API's made the system more feature rich.</li>
                         <li className='text grey monospace'>Created an internal tool to check the data of over 230 fields for 140K records to create reconciliation report.</li>
-                        <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, React.JS</li>
+                        <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, MySQL, React.JS</li>
+                    </ul>
+                </div>
+            );
+        }
+        else if(value === 2) {
+            return (
+                <div>
+                    <h6 className='text white'>Java Developer <b className='text-pop text monospace'>@ GyanAI</b></h6>
+                    <p className='text grey monospace small'>January 2023 - current</p>
+
+                    <ul>
+                        <li className='text grey monospace'>Created API's to upload file, create templates, and to backtrack data & return relevant records.</li>
+                        <li className='text grey monospace'>Worked on multiple existing features and changed the behaviour based on business requirements.</li>
+                        <li className='text grey monospace'>Created a API which converts objects to MS Document which contains links, styled texts, lists, tables etc.</li>
+                        <li className='text grey monospace'>Optimized the initate research time by 30%, by reducing the number of API's call.</li>
+                        <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, MySQL</li>
                     </ul>
                 </div>
             );
@@ -47,8 +66,8 @@ function Work() {
     return (
         <div className='row'>
             <div align="left" className='mt-4 d-md-flex flex-column  col-12 col-xl-3 col-md-4 col-sm-12'>
+                <div id="btn1" className={value===2?"hover-color btn-work left-button grey monospace":"btn-work left-button grey monospace"} onClick={gyan}><span className={value===2?"text-pop":""}>GyanAI</span></div>
                 <div id="btn1" className={value===1?"hover-color btn-work left-button grey monospace":"btn-work left-button grey monospace"} onClick={sync}><span className={value===1?"text-pop":""}>Synchronoss</span></div>
-                
                 <div id="btn0" className={value===0?"hover-color btn-work left-button grey monospace":"btn-work left-button grey monospace"} onClick={cog}><span className={value===0?"text-pop":""}>Cognizant</span></div>
             </div>
             <div className='mt-4 d-md-block col-12 col-xl-9 col-md-8 col-sm-12'>
