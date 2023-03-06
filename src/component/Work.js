@@ -3,7 +3,7 @@ import './Basic.css';
 
 function Work() {
 
-    const [value, setValue] = useState(1);
+    const [value, setValue] = useState(2);
 
     const sync = ()=>{
         setValue(1);
