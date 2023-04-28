@@ -15,7 +15,7 @@ function App() {
       <div className=''>
         <main className='body-color p-4'>
           <div className='row justify-content-center'>
-            <div className='col-12 col-xl-8 col-lg-9 col-md-9 col-sm-12 pt-5 pb-5'id="#brief" >
+            <div className='col-12 col-xl-8 col-lg-9 col-md-9 pt-5 pb-5'id="#brief" >
               <p className="text-pop">
                 Hi, my name is
               </p>

@@ -1,17 +1,16 @@
 .project{
-    position: relative;
     margin:20px;
+    position: relative;
     background-color: #151755;
     border-color:#151755;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height:300px;
     overflow: hidden;
-    width:45%;
 }
 .project-image{
     height:300px;
-    z-index: 10;;
+    z-index: 10;
     position: absolute;
 }
 
