@@ -19,8 +19,8 @@ function App() {
               <p className="text-pop">
                 Hi, my name is
               </p>
-              <h2 className="white large">
-                Amit Kumar.
+              <h2 data-text="AMIT&nbsp;KUMAR." className="large animate">
+                AMIT KUMAR.
               </h2>
               <h3 className="grey medium">
                 I build things for the web.
