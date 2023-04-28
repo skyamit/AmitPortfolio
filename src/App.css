@@ -1,0 +1,33 @@
+.animate {
+    display: block;
+    position: relative;
+    font-family: monospace;
+    width: max-content;
+    color: #0a0b2f;
+    -webkit-text-stroke: 0.1vw #64edff;    
+}
+.animate::before {
+    content: attr(data-text);
+    font-family: monospace;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color:#ccd6f6;
+    -webkit-text-stroke: 0.1vw #ccd6f6;
+    border-right: 2px solid #ccd6f6;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate 
+{
+    0%,10%,100% 
+    {
+        width: 0;
+    }
+    70%,90% 
+    {
+        width: 100%;
+    }
+}

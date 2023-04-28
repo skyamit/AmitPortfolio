@@ -91,33 +91,10 @@ div{
     top:10px;
 }
 
-.project{
-    position: relative;
-    margin:30px 0px 30px 0px;
-    background-color: #151755;
-    border-color:#64edff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height:300px;
-    overflow: hidden;
-}
-.project-image{
-    height:300px;
-    z-index: 10;;
-    position: absolute;
-}
-.project-details{
-    background-color: #64edff79;
-    z-index: 100;
-    height:300px;
-    position: absolute;
-    width: 100%;
-}
-.project-info{
-    width:100%;
-    background-color: #151755d6;
-    padding:10px 10px 10px 50px;
-    position:absolute;
-    bottom: 0px;
+.projects {
+    display:flex;
+    flex-flow: wrap;
+    align-items: center;
 }
 
 .heading{
