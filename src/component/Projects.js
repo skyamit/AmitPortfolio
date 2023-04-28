@@ -47,7 +47,7 @@ function Projects(){
     ]
     return (
         <>
-        <div className='projects'>
+        <div className='projects row'>
             {
                 data.map((curr) => {
                     return <Project data = {curr} />
