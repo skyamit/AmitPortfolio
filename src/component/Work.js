@@ -39,7 +39,6 @@ function Work() {
                     <ul>
                         <li className='text grey monospace'>OnBoarded multiple functionalities from existing application to new Tech Stack.</li>
                         <li className='text grey monospace'>Wrote multiple API's for the team which returned the extracted data by doing some computations on the basis of business requirements. These API's made the system more feature rich.</li>
-                        <li className='text grey monospace'>Created an internal tool to check the data of over 230 fields for 140K records to create reconciliation report.</li>
                         <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, MySQL, React.JS</li>
                     </ul>
                 </div>
@@ -56,6 +55,7 @@ function Work() {
                         <li className='text grey monospace'>Worked on multiple existing features and changed the behaviour based on business requirements.</li>
                         <li className='text grey monospace'>Created a API which converts objects to MS Document which contains links, styled texts, lists, tables etc.</li>
                         <li className='text grey monospace'>Optimized the initate research time by 30%, by reducing the number of API's call.</li>
+                        <li className='text grey monospace'>Implemented a API to share Large Gyans and keep track of its status.</li>
                         <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, MySQL</li>
                     </ul>
                 </div>
