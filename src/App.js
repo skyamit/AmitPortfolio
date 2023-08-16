@@ -26,7 +26,7 @@ function App() {
                 I build things for the web.
               </h3>
               <p className='pt-3 col-12 col-lg-8 col-md-9 col-sm-12'>
-                I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products and looking for Job.
+                I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.
               </p>
               <h2 className='white mt-5'>
                 My Coding Profiles
