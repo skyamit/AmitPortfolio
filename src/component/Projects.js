@@ -58,8 +58,14 @@ function Projects(){
         <h3 className='white mt-5'>
             Practice Projects worth mentioning..
         </h3>
+        <a href="https://lilichatians.netlify.app/">
+            <button className='button mt-3 inline me-2'>Chat App</button>
+        </a>
         <a href="https://musicfake.netlify.app/">
             <button className='button mt-3 inline me-2'>Music Player GUI</button>
+        </a>
+        <a href="https://contact-ninja.netlify.app/">
+            <button className='button mt-3 inline me-2'>Contact App</button>
         </a>
         <a href="https://todoamit.netlify.app/">
             <button className='button mt-3 inline me-2'>ToDo</button>
