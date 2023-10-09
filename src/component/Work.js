@@ -33,7 +33,7 @@ function Work() {
         else if(value === 1){
             return (
                 <div>
-                    <h6 className='text white'>Software Developer <b className='text-pop text monospace'>@ Synchronoss</b></h6>
+                    <h6 className='text white'>Software Developer <b className='text-pop text monospace'>@ IQMetrix / Synchronoss Technologies</b></h6>
                     <p className='text grey monospace small'>July 2022 - December 2022</p>
 
                     <ul>
@@ -47,7 +47,7 @@ function Work() {
         else if(value === 2) {
             return (
                 <div>
-                    <h6 className='text white'>Java Developer <b className='text-pop text monospace'>@ GyanAI</b></h6>
+                    <h6 className='text white'>Software Engineer <b className='text-pop text monospace'>@ Intelligent Machine Labs / PearlShell Softech</b></h6>
                     <p className='text grey monospace small'>January 2023 - current</p>
 
                     <ul>
