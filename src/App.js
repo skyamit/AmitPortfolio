@@ -15,18 +15,18 @@ function App() {
       <div className=''>
         <main className='body-color p-4'>
           <div className='row justify-content-center'>
-            <div className='col-12 col-xl-8 col-lg-9 col-md-9 col-sm-12 pt-5 pb-5'id="#brief" >
+            <div className='col-12 col-xl-8 col-lg-9 col-md-9 pt-5 pb-5'id="#brief" >
               <p className="text-pop">
                 Hi, my name is
               </p>
-              <h2 className="white large">
-                Amit Kumar.
+              <h2 data-text="AMIT&nbsp;KUMAR." className="large animate">
+                AMIT KUMAR.
               </h2>
               <h3 className="grey medium">
                 I build things for the web.
               </h3>
               <p className='pt-3 col-12 col-lg-8 col-md-9 col-sm-12'>
-                I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products and looking for Job.
+                I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.
               </p>
               <h2 className='white mt-5'>
                 My Coding Profiles
