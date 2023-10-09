@@ -47,8 +47,8 @@ function Work() {
     return (
         <div className='row'>
             <div align="left" className='mt-4 d-md-flex flex-column  col-12 col-xl-3 col-md-4 col-sm-12'>
-                <div id="btn1" className={value===1?"hover-color btn-work left-button grey monospace":"btn-work left-button grey monospace"} onClick={sync}><span className={value===1?"text-pop":""}>Synchronoss</span></div>
-                
+                <div id="btn1" className={value===2?"hover-color btn-work left-button grey monospace":"btn-work left-button grey monospace"} onClick={gyan}><span className={value===2?"text-pop":""}>Intelligent Machine Labs</span></div>
+                <div id="btn1" className={value===1?"hover-color btn-work left-button grey monospace":"btn-work left-button grey monospace"} onClick={sync}><span className={value===1?"text-pop":""}>IQMetrix</span></div>
                 <div id="btn0" className={value===0?"hover-color btn-work left-button grey monospace":"btn-work left-button grey monospace"} onClick={cog}><span className={value===0?"text-pop":""}>Cognizant</span></div>
             </div>
             <div className='mt-4 d-md-block col-12 col-xl-9 col-md-8 col-sm-12'>
