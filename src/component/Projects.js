@@ -5,6 +5,16 @@ import Project from './Project';
 function Projects(){
     const data = [
         {
+            "title" : "ShopTurant",
+            "about":"ShopTurant is an e-commerce application utilizing features like cart management, payment integration, user roles, product management, history tracking, address handling and order management.",
+            "tools" : "ReactJS, Spring Boot, MySQL, HTML5, CSS3",
+            "github":"https://github.com/skyamit/ShopTurant",
+            "githubImg":"images/github.png",
+            "liveLink":"https://www.youtube.com/watch?v=I6ZZtH6zbUU",
+            "liveImg" :"images/link.png",
+            "projectImg" : "images/shopturant.png"
+        },
+        {
             "title" : "Lilichatians",
             "about":"Built an end to end social networking application based on popular networking apps.",
             "tools" : "Java, Android Development, FireBase, Android Studio",

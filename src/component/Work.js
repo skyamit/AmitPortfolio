@@ -51,8 +51,10 @@ function Work() {
                     <p className='text grey monospace small'>January 2023 - current</p>
 
                     <ul>
+                        <li className='text grey monospace'>Successfully developed features like sentiment analysis, comments and drafts improving overall product quality and improved user experience.</li>
+                        <li className='text grey monospace'>Designed and developed a module that utilizes data for generating excel files integrating seamlessly with microservices and improving data extraction efficiency.</li>
                         <li className='text grey monospace'>Created API's to upload file, create templates, and to backtrack data & return relevant records.</li>
-                        <li className='text grey monospace'>Worked on multiple existing features and changed the behaviour based on business requirements.</li>
+                        <li className='text grey monospace'>Worked on multiple existing features and improved user experience along with fixing bugs.</li>
                         <li className='text grey monospace'>Created a API which converts objects to MS Document which contains links, styled texts, lists, tables etc.</li>
                         <li className='text grey monospace'>Optimized the initate research time by 30%, by reducing the number of API's call.</li>
                         <li className='text grey monospace'>Implemented a API to share Large Gyans and keep track of its status.</li>
