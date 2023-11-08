@@ -52,7 +52,9 @@ function Work() {
 
                     <ul>
                         <li className='text grey monospace'>Successfully developed features like sentiment analysis, comments and drafts improving overall product quality and improved user experience.</li>
+                        <li className='text grey monospace'>Enhanced the "Refresh" and "Consolidate" features to support large knowledge repositories, ensuring seamless updates and consolidation of extensive data within user insights.</li>
                         <li className='text grey monospace'>Designed and developed a module that utilizes data for generating excel files integrating seamlessly with microservices and improving data extraction efficiency.</li>
+                        <li className='text grey monospace'>Innovated the Utility and UI to empower curators in fine-tuning contextual summaries, resulting in improved content precision and user satisfaction.</li>
                         <li className='text grey monospace'>Created API's to upload file, create templates, and to backtrack data & return relevant records.</li>
                         <li className='text grey monospace'>Worked on multiple existing features and improved user experience along with fixing bugs.</li>
                         <li className='text grey monospace'>Created a API which converts objects to MS Document which contains links, styled texts, lists, tables etc.</li>
