@@ -22,9 +22,18 @@ function Work() {
                     <p className='text grey monospace small'>January 2021 - June 2022</p>
 
                     <ul>
-                        <li className='text grey monospace'>Added 2 features in the existing websites to view and edit all the statistics of user at one place which reduced the manual work by 50%.</li>
-                        <li className='text grey monospace'>Implemented 3 backend modules which transfered the data into new systems and creates error report.</li>
-                        <li className='text grey monospace'>Created an internal tool to check the data of over 230 fields for 140K records to create reconciliation report.</li>
+                        <li className='text grey monospace'>
+                        Streamlined user statistics management by building backend-driven workflows and APIs, reducing manual operational effort by approximately 70%.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Designed and implemented scalable backend architecture for three core modules to migrate legacy data into new systems, with automated error reporting for reliable data transfer.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Built an internal data validation tool to validate 230+ fields across 140K+ records, automate reconciliation reporting, and improve data accuracy during migration.
+                        </li>
+
                         <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, HTML, CSS, MySQL</li>
                     </ul>
                 </div>
@@ -37,9 +46,15 @@ function Work() {
                     <p className='text grey monospace small'>July 2022 - December 2022</p>
 
                     <ul>
-                        <li className='text grey monospace'>OnBoarded multiple functionalities from existing application to new Tech Stack.</li>
-                        <li className='text grey monospace'>Wrote multiple API's for the team which returned the extracted data by doing some computations on the basis of business requirements. These API's made the system more feature rich.</li>
-                        <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, MySQL, React.JS</li>
+                        <li className='text grey monospace'>
+                        Built and maintained backend APIs for data computation and aggregation using complex business logic, enabling new product features and improved data availability.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Identified performance bottlenecks and refactored critical code paths, reducing page load time by 20% and improving application responsiveness.
+                        </li>
+
+                        <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, MySQL</li>
                     </ul>
                 </div>
             );
@@ -49,18 +64,70 @@ function Work() {
                 <div>
                     <h6 className='text white'>Software Engineer <b className='text-pop text monospace'>@ Intelligent Machine Labs / PearlShell Softech</b></h6>
                     <p className='text grey monospace small'>January 2023 - current</p>
-
                     <ul>
-                        <li className='text grey monospace'>Successfully developed features like sentiment analysis, comments and drafts improving overall product quality and improved user experience.</li>
-                        <li className='text grey monospace'>Enhanced the "Refresh" and "Consolidate" features to support large knowledge repositories, ensuring seamless updates and consolidation of extensive data within user insights.</li>
-                        <li className='text grey monospace'>Designed and developed a module that utilizes data for generating excel files integrating seamlessly with microservices and improving data extraction efficiency.</li>
-                        <li className='text grey monospace'>Innovated the Utility and UI to empower curators in fine-tuning contextual summaries, resulting in improved content precision and user satisfaction.</li>
-                        <li className='text grey monospace'>Created API's to upload file, create templates, and to backtrack data & return relevant records.</li>
-                        <li className='text grey monospace'>Worked on multiple existing features and improved user experience along with fixing bugs.</li>
-                        <li className='text grey monospace'>Created a API which converts objects to MS Document which contains links, styled texts, lists, tables etc.</li>
-                        <li className='text grey monospace'>Optimized the initate research time by 30%, by reducing the number of API's call.</li>
-                        <li className='text grey monospace'>Implemented a API to share Large Gyans and keep track of its status.</li>
-                        <li className='text grey monospace'>Tech Stack : Java, Spring Boot, Rest API, MySQL</li>
+                        <li className='text grey monospace'>
+                        Partnered with product teams to refine requirements and deliver user-centric features aligned with business goals.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Successfully developed features such as sentiment analysis, comments, and drafts, improving overall product quality and user experience.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Reduced indexing time from 3 minutes to 7 seconds by implementing multi-threaded processing using Java Executor Service and integrating Apache SOLR.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Built interactive knowledge graphs across articles, topics, and concepts, enabling faster content discovery through graph-based navigation.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Enhanced Refresh and Consolidate features to support large knowledge repositories, ensuring seamless updates and data consolidation.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Reduced manual onboarding effort by 99% by designing scalable workflows for user groups, access control, and repository permissions.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Designed and implemented a configuration-driven document extraction pipeline using Adobe and Aspose APIs to convert raw documents into structured content.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Built rule-based normalization services to correct document hierarchy and transform JSON payloads into client-specific XML formats.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Developed APIs for file uploads, template creation, data backtracking, and returning relevant records.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Created an API to generate MS Word documents containing links, styled text, lists, and tables.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Implemented APIs to share large Gyans and track their processing and delivery status.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Optimized research initiation time by 30% by reducing redundant API calls and improving request orchestration.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Designed and developed modules for Excel file generation, integrating seamlessly with microservices to improve data extraction efficiency.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Improved system stability by 25% by resolving 50+ production issues across UI, article processing, visibility, and API layers.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Proactively proposed and influenced feature enhancements, contributing to the product roadmap and improving user engagement.
+                        </li>
+
+                        <li className='text grey monospace'>
+                        Tech Stack: Java, Spring Boot, REST APIs, MySQL
+                        </li>
                     </ul>
                 </div>
             );
